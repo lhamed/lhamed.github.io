@@ -1,5 +1,5 @@
-title:         Lhamed(Jung-Youn-Jae), the Game Devloper
-description:      Former a military cadet , former a psychology studnet , current the GameDevloper. That's it. 
+title:         Lhamed Dev Blog
+description:     Mobile Game-Devloper's blog
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
@@ -10,9 +10,9 @@ url:  https://lhamed.github.io
 
 # Owner/author information
 owner:
-  name:           Lhamed,JungYounJae
+  name:           Lhamed
   avatar:  avatar.jpg
-  bio:            "(Cool Game) = (Real World) - (unnecessary things)"
+  bio:            "Next Generation Game Developer"
   email:          lhamed.ludologist@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        https://twitter.com/dkeka320
