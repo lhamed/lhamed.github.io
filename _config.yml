@@ -1,26 +1,25 @@
-
-title:         "Lhamed(Jung-Youn-Jae), the Game Devloper"
-description:      "Former a military cadet , former a psychology studnet , current the GameDevloper. That's it. "
-
+title:         Lhamed(Jung-Youn-Jae), the Game Devloper
+description:      Former a military cadet , former a psychology studnet , current the GameDevloper. That's it. 
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: "https://lhamed.github.io"
-baseurl: ""
+url:  https://lhamed.github.io
+
 # Owner/author information
 owner:
-  name:           "Lhamed,JungYounJae"
+  name:           Lhamed,JungYounJae
+  avatar:  avatar.jpg
   bio:            "(Cool Game) = (Real World) - (unnecessary things)"
-  email:          "lhamed.ludologist@gmail.com"
+  email:          lhamed.ludologist@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        "https://twitter.com/dkeka320"  
-  facebook:     "https://www.facebook.com/profile.php?id=100003724671644"
-  github:         "https://github.com/Lhamed"
-  linkedin:       "https://www.linkedin.com/in/윤재-정-133b19176/"
-  instagram:      "https://www.instagram.com/lhamed_the_ludologist/"   
+  twitter:        https://twitter.com/dkeka320
+  facebook:     https://www.facebook.com/profile.php?id=100003724671644
+  github:         https://github.com/Lhamed
+  linkedin:       https://www.linkedin.com/in/윤재-정-133b19176/
+  instagram:      https://www.instagram.com/lhamed_the_ludologist/"  
   # google plus id, include the '+', eg +mmistakes
 
 
@@ -36,7 +35,7 @@ bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-timezone:    "Asia/Seoul"
+timezone:    Asia/Seoul
 
 future:      false  # publish future dated posts --  true, false (default) 
 highlighter: rouge
