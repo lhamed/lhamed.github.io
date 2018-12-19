@@ -2,7 +2,10 @@
 layout: page
 title: About the Jekyll Theme
 image:
+<<<<<<< HEAD
   path: /images/abstract-5.jpg
+=======
+>>>>>>> master
   feature: abstract-5.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/

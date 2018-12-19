@@ -3,7 +3,10 @@ layout: page
 title: Theme Setup
 description: "Instructions on how to install and customize the modern Jekyll theme HPSTR."
 image:
+<<<<<<< HEAD
   path: /images/abstract-11.jpg
+=======
+>>>>>>> master
   feature: abstract-11.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
@@ -222,7 +225,11 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
+<<<<<<< HEAD
 This theme is free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE). So feel free to to modify this theme to suit your needs.
+=======
+This theme is free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs.
+>>>>>>> master
 
 ---
 

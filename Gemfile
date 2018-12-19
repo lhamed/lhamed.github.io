@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+<<<<<<< HEAD
 gem "github-pages", group: :jekyll_plugins
 
 gem "tzinfo-data"
@@ -12,3 +13,11 @@ group :jekyll_plugins do
   gem "jekyll-gist"
   gem "jekyll-feed"
 end
+=======
+gem "tzinfo-data"
+gem "jekyll", "~> 3.7"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "jekyll-paginate"
+gem "jekyll-gist"
+>>>>>>> master
