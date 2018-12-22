@@ -1,6 +1,6 @@
 ---
 layout: post
-title: After Dev Interview,As an interviewer
+title: An interviewer
 description: "Sat.2018.12.22"
 modified: 2018-12-22
 tags: [Journal]
