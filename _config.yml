@@ -15,11 +15,11 @@ owner:
   bio:            "Next Generation Game Developer"
   email:          lhamed.ludologist@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        https://twitter.com/dkeka320
-  facebook:     https://www.facebook.com/profile.php?id=100003724671644
-  github:         https://github.com/Lhamed
-  linkedin:       https://www.linkedin.com/in/윤재-정-133b19176/
-  instagram:      https://www.instagram.com/lhamed_the_ludologist/"  
+  twitter:        "https://twitter.com/dkeka320"
+  facebook:     "https://www.facebook.com/profile.php?id=100003724671644"
+  github:         "https://github.com/Lhamed"
+  linkedin:       "https://www.linkedin.com/in/윤재-정-133b19176/"
+  instagram:      "https://www.instagram.com/lhamed_the_ludologist/"  
   # google plus id, include the '+', eg +mmistakes
 
 
