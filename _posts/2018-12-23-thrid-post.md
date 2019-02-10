@@ -3,7 +3,7 @@ layout: post
 title: Open Eyes to Server
 description: "Sun.2018.12.23"
 modified: 2018-12-23
-tags: [Journal]
+tags: [Journal, Server , Node]
 image:
   path: /images/Lawn.png
   feature: abstract-3.jpg
