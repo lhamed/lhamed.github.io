@@ -41,16 +41,18 @@ PC( Program Counter )에서 다음에 실행될 명령어의 주소인 "AE00" �
 //이거 아마 아두이노 할 때 배운 HIGH 와 LOW 펄스 얘기가 아닐까 싶다.   CS Line (Chip Switch) 와 R/W (Read & Write) Line 이 그것이다. 이 low pulse 들은 Address bus 를 통해 전달 받은 주소값에 저장된 데이터를 읽어 올 수 있게한다. 
 
 //CU는 메모리와 CPU 간의 통신및 조율을 돕는다고 한다. 아마 읽거나 쓸 떼 지금 뭘하려고 하는지 보내는게 아닐까 싶다. 나중에 부연할 것 TODO  
-``` 
+```
 
 그리도 다음에 "AE00"에 저장된 "3C" 데이터를 메모리는 명령의 시작 주소를 기억하는 BR (Buffer Register) 에 전달하고 , 실행중인 명령을 기억하는  IR (Instruction Refister)에 전달된다. 그리고 Docoder 를 거쳐서 명령을 해독하게 되고 , CU는 ALU ( Arithmetic and Logic Unit , 연산장치 )으로 하여금 , 3C의 명령을 실행해서 Register A 의 데이터 00H 를 01H 로 만든다. 
 
 # 정리
 
-                                                                                                        (Work)  <-  [ALU]
-[PC] -(Addrees)-> [MAR] -(Addrees)-> [Address_Bus] -(Addrees)->        [------]                                       ^
-                                     [CU] -(Low)-> [CS_Line]  -(Low)-> [Memory] -(Data)-> [BR] -> [IR] -> [Docder]-> [CU]
-                                                   [R/W_Line] -(Low)-> [______]                                        
+[PC] -(Addrees)-> [MAR] -> [Address_Bus] -> [Memory]                                   
+[CU] -(Low)-> [CS_Line]  -(Low)-> [Memory] 
+[CU] -(Low)-> [R/W_Line] -(Low)-> [Memory]      
+
+[Memory] -(Data)-> [BR] -> [IR] -> [Docder]-> [CU] ->[ALU] -> [Dp_Something]
+
 
 # 후기    
 짧은 CPU의 프로그램 실행에 대한 동영상을 보았다. 내용은 전혀 쉽지 않았다 @_@. 
