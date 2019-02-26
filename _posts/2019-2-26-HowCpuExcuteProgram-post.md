@@ -48,7 +48,9 @@ PC( Program Counter )에서 다음에 실행될 명령어의 주소인 "AE00" �
 # 정리
 
 [PC] -(Addrees)-> [MAR] -> [Address_Bus] -> [Memory]                                   
+
 [CU] -(Low)-> [CS_Line]  -(Low)-> [Memory] 
+
 [CU] -(Low)-> [R/W_Line] -(Low)-> [Memory]      
 
 [Memory] -(Data)-> [BR] -> [IR] -> [Docder]-> [CU] ->[ALU] -> [Dp_Something]
