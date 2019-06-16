@@ -4,11 +4,7 @@ title: WorkReport_1
 description: "Fri,2019.2.16"
 modified: 2019-2-24
 tags: [WorkReport]
-image:
-  path: /images/Lawn.png
-  feature: abstract-3.jpg
-  credit: lhaemd
-  creditlink: lhamed.github.io
+image:   feature: bg_sun.jpg
 ---
 
 # 오늘 목표 업무 

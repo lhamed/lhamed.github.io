@@ -4,11 +4,7 @@ title: WorkReport_4
 description: "Fri,2019.3.4"
 modified: 2019-3-4
 tags: [WorkReport]
-image:
-  path: /images/Lawn.png
-  feature: abstract-3.jpg
-  credit: lhaemd
-  creditlink: lhamed.github.io
+image:   feature: bg_sun.jpg
 ---
 
 # 사무실 이사 + 업무 바꿈 
