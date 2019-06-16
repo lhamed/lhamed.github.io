@@ -1,6 +1,6 @@
 title:   혼란을 틈탄 라메드의 기술 블로그
 description:     게임 개발자 라메드의 칠전팔기 중 칠전( 顚 ,엎어질 전)에 해당하는 꽈당쇼를 모은 블로그
-disqus_shortname:   Owner
+disqus_shortname:   Lhamed
 reading_time:     true
 words_per_minute: 200 # 이게뭐지 ? L
 url:  https://lhamed.github.io
@@ -30,7 +30,7 @@ google_analytics:   UA-142208469-1
 
 timezone:    Asia/Seoul
 
-future:      false  # publish future dated posts --  true, false (default) 
+future:      true  # publish future dated posts --  true, false (default) 
 highlighter: rouge
 markdown:    kramdown
 plugins:
