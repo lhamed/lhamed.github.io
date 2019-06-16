@@ -4,8 +4,6 @@ title: CPU는 프로그램을 어떻게 실행할까?
 description: "컴퓨터 공학 "
 modified: 2019-2-24
 tags: [Computer-Science, CPU ]
-image:
-  feature: post_header.jpg
 ---
 
 # CPU 가 프로그램을 어떻게 실행하는지
