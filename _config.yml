@@ -7,14 +7,12 @@ url:  https://lhamed.github.io
 
 # Owner/author information
 owner:
-  name:    Lhamed
+  name:    Lhamed (정윤재)
   avatar: lhamed.png
-  bio:            "새 경험을 좇는 게임 개발자"
+  bio:            "(대충 게임 개발자로서, \n 멋지고 똑똑해 보이는 말)"
   email:          lhamed.ludologist@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        https://twitter.com/dkeka320
   facebook:     https://www.facebook.com/profile.php?id=100003724671644
-  github:         https://github.com/Lhamed
+  github:         https://github.com/Lhamed?tab=repositories
   linkedin:       https://www.linkedin.com/in/윤재-정-133b19176
   instagram:      https://www.instagram.com/lhamed_the_ludologist
   # google plus id, include the '+', eg +mmistakes
@@ -22,13 +20,11 @@ owner:
 
 
 # Background image to be tiled on all pages
-background:
+background: bg_galaxy.jpg
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+google_analytics:   UA-142208469-1
+#google_verify:      
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -58,7 +54,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  enable_coderay: false
+  enable_coderay: true
 
 include: 
   - .htaccess
