@@ -8,15 +8,15 @@ url:  https://lhamed.github.io
 # Owner/author information
 owner:
   name:    Lhamed
-  avatar: https://drive.google.com/open?id=1E25rcAT_jTHD5hwZNnRWInZ99BnJ0sCx
-  bio:            "새로운 것을 배우는 흥분과 익숙한 것과 하나되는 경험을 좇는 개발자"
+  avatar: lhamed.png
+  bio:            "새 경험을 좇는 게임 개발자"
   email:          lhamed.ludologist@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        https://twitter.com/dkeka320
   facebook:     https://www.facebook.com/profile.php?id=100003724671644
   github:         https://github.com/Lhamed
-  linkedin:       https://www.linkedin.com/in/윤재-정-133b19176/
-  instagram:      https://www.instagram.com/lhamed_the_ludologist/
+  linkedin:       https://www.linkedin.com/in/윤재-정-133b19176
+  instagram:      https://www.instagram.com/lhamed_the_ludologist
   # google plus id, include the '+', eg +mmistakes
 
 
