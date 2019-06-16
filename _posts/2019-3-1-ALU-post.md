@@ -4,7 +4,11 @@ title: ALU
 description: "Fri,2019.2.16"
 modified: 2019-2-24
 tags: [cs, SelfStudy , Study , Note]
-image:   feature: bg_sun.jpg
+image:
+  path: /images/Lawn.png
+  feature: abstract-3.jpg
+  credit: lhaemd
+  creditlink: lhamed.github.io
 ---
 
 # ALU ( Arithmetic logic unit, 산술 논리 유닛 )

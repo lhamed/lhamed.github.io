@@ -4,7 +4,11 @@ title: Open Eyes to Server
 description: "Sun.2018.12.23"
 modified: 2018-12-23
 tags: [Journal, Server , Node]
-image:   feature: bg_sun.jpg
+image:
+  path: /images/Lawn.png
+  feature: abstract-3.jpg
+  credit: lhaemd
+  creditlink: lhamed.github.io
 ---
 
 # 서버에 눈을 뜨다

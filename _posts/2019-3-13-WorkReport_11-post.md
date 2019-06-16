@@ -4,7 +4,11 @@ title: WorkReport_4
 description: "Fri,2019.3.4"
 modified: 2019-3-4
 tags: [WorkReport]
-image:   feature: bg_sun.jpg
+image:
+  path: /images/Lawn.png
+  feature: abstract-3.jpg
+  credit: lhaemd
+  creditlink: lhamed.github.io
 ---
 # 오늘 목표 업무 
 - [x] One UI ( 삼성 ) 으로 인한 , 해상도가 바뀌는 이슈 

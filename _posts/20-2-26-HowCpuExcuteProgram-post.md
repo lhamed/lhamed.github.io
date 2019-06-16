@@ -4,7 +4,11 @@ title: How_CPU_Excuete_Program
 description: "Fri,2019.2.16"
 modified: 2019-2-24
 tags: [cs, SelfStudy , Study , Note]
-image:   feature: bg_sun.jpg
+image:
+  path: /images/Lawn.png
+  feature: abstract-3.jpg
+  credit: lhaemd
+  creditlink: lhamed.github.io
 ---
 
 # CPU 가 프로그램을 어떻게 실행하는지
