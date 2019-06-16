@@ -1,32 +1,29 @@
 ---
 layout: page
-title: 인간 라메드에 대한 설명
+title: 라메드에 관하여
 image:
   feature: bg_sun.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
-modified: 2016-02-01
+modified: 2019-06-16
 ---
 
-They say three times the charm, so here is another free responsive Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. 
+## 지나온 것
 
-If you've used any of [my other themes](http://mademistakes.com/work/jekyll-themes/) most of this should be familiar territory...
-
-## HPSTR Features:
-
-* Compatible with Jekyll 3 and GitHub Pages.
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Sweet animated menu.
-* Background image support.
-* Support for large images to call out your favorite posts.
-* Optional [Disqus](http://disqus.com) comments.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Syntax highlighting]({{ site.url }}/code-highlighting-post/) stylesheets to make your code examples look snazzy.
-
-<div markdown="0"><a href="{{ site.url }}/theme-setup/" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-success">Download HPSTR</a></div>
-
-[^1]: Example: *domain.com/category-name/post-title*
+- 2012, 1, 대한민국 육군사관학교 기초군사훈련 입교
+- 2012, 2, 고등학교 졸업 & 대한민국 육군사관학교 입학 
+  - 졸업식에서 육군참모총장상 수상
+- 2012, 8, 대한민국 육군사관학교 퇴교
+- ~ 2013, 12, 비슷한 처지의 친구와 PC 방에서 거의 입주해서 생활 
+- 2014, 2, 가톨릭대학교 성심교정 사회과학부 입학
+- 2015, 2, 사회과학부 소속 심리학 전공
+- ~ 2016, 2, 휴학 상태로 게임 개발 독학 
+- ~ 2017, 8, 구글 플레이에 습작 게임들을 출시
+  - 7개 출시 중 5만 다운로드 , 10만 다운로드등 성과
+  - 총 매출 약 2600 만원 정도를 기록하면서 의외로 든든한 용돈
+- ~ 2017, 6, 본가가 방화사건 화재로 전소 
+- ~ 2018, 2, 기존 개인사업자에서 가산에서 게임 개발 스타트업으로 합병
+  - 1개 작품 출시 후 출시 취소 ( 팀원의 사정 )
+  - 동업은 신중히 해야한다는 교훈
+- ~ 2018, 8, 복학과 게임 개발사에 취직하여 병행
+  - (주)퍼즐스페이스 에서 2개의 게임 개발에 참여함 
+- 2019, 2, 가톨릭대학교 자퇴 (2학년 수료) & 주식회사 뱃돈으로 이직
