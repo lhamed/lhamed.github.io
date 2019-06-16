@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: 인간 라메드에 대한 설명
 image:
-  feature: abstract-5.jpg
+  feature: bg_sun.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-comments: false
+comments: true
 modified: 2016-02-01
 ---
 
