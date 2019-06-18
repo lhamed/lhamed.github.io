@@ -1,17 +1,10 @@
 ---
 layout: post
-title: An interviewer
-description: "Sat.2018.12.22"
+title: 후임 프로그래머를 뽑는 면접에 참여했다.
+description: "그러고 보니, 나는 면접 때 별 생각이 없었는데.. "
 modified: 2018-12-22
-tags: [Journal, Ngrok , Node , C]
-image:
-  path: /images/abstract-3.jpg
-  feature: abstract-3.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+tags: [Journal]
 ---
-
-# 후임 5 분의 프로그래머 면접을 보다 . 
 
 어제, 그러니까 2018년 12월 21일에 후임자를 뽑는 면접이 있었다.
 
@@ -29,7 +22,7 @@ image:
 
 한명의 엔지니어가 되고 싶다 . 
 
-# Ngrok을 사용한 추가 node app을 개발 계획을 세우다. 
+# Ngrok을 사용한 추가 node app을 개발 계획을 세우다
 
 유니티에는 캐시서버란 것이 있다. 리소스의 임포팅을 일일히 하지 않고 캐시서버에 올려두었다가 
 
@@ -49,7 +42,7 @@ image:
 
 아마 일요일 안에 다 될 거 같다.  
 
-# C 가 예전 만큼 어렵지 않아 보인다. 
+# C 가 예전 만큼 어렵지 않아 보인다
 
 나는 C 언어를 따로 열심히 공부한 적이 없다. 유니티로 C# 스크립트를 이용해 게임을 만들면서 그닥 불편하지 않았기 때문이었다 .
 
