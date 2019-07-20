@@ -40,5 +40,4 @@ graph LR;
     C --> D
     D --> A
     B --> C
-    end
 </div>
