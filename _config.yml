@@ -17,8 +17,7 @@ owner:
   instagram:      lhamed_the_ludologist
   # google plus id, include the '+', eg +mmistakes
 
-mermaid:
-  src: 'path/to/mermaid.js'
+
 # Background image to be tiled on all pages
 background: bg_galaxy-2.jpg
 postbackground : universe.jpg
@@ -38,7 +37,6 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-feed
-  - jekyll-mermaid
 sass:
   sass_dir: _sass
   style: compressed
