@@ -1,6 +1,6 @@
 ---
-layout: 일정 시간이 지나면 보상을 주는 컨텐츠 기능 설계 
-title: 
+layout: 
+title: 일정 시간이 지나면 보상을 주는 컨텐츠 기능 설계 
 description: 
 modified: 2019-7-20
 tags: [ Unity , GameDev, Function ] 
