@@ -1,5 +1,5 @@
 ---
-layout:
+layout: post
 title:  간만에 게임잼 신난당. 
 description: 
 modified: 2019-7-31

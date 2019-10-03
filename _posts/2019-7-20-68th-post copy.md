@@ -1,5 +1,5 @@
 ---
-layout: mermaidTest
+layout: post
 title: 깃헙 지킬 블로그에 mermaid 달다. 
 description: 
 modified: 2019-7-20

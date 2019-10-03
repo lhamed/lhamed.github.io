@@ -1,5 +1,5 @@
 ---
-layout:
+layout: post
 title:  iOS Entitlement Setting in Script. (Post Process )
 description: 
 modified: 2019-8-1
