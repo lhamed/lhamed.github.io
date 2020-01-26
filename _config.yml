@@ -1,4 +1,4 @@
-title:   혼란을 틈탄 라메드의 기술 블로그
+title: What Game Engineer on Earth is Me ?  
 description: ( 대충 그럴싸한 멋진말 )
 disqus_shortname:   lhamedDev
 reading_time:     false
@@ -27,11 +27,11 @@ google_analytics:   UA-149379019-1
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-timezone:    Asia/Seoul
 
+timezone:    Asia/Seoul
 future:      true  # publish future dated posts --  true, false (default) 
 highlighter: rouge
-markdown:    kramdown
+markdown:    kramidown
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
