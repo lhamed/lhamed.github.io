@@ -2,7 +2,7 @@
 layout: page
 title: 라메드에 관하여
 image:
-  feature: bg_sun.jpg
+  feature:  crazy_circles_free_seamless_pattern_119803.jpg
 comments: true
 modified: 2019-06-16
 ---
