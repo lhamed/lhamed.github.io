@@ -7,7 +7,7 @@ tags: [WorkReport]
 image:
   path: /images/Lawn.png
   feature: abstract-3.jpg
-  credit: lhaemd
+  credit: lhamed
   creditlink: lhamed.github.io
 ---
 # 오늘 목표 업무 
