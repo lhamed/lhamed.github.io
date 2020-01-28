@@ -1,0 +1,91 @@
+I"�<h1 id="서문">서문</h1>
+
+<p>정말 오랫만에 포스팅을 한다.</p>
+
+<p>그간 디지털 기록보다는 아날로그 노트에 푹 빠져서 꽤 많은 일기와 이것 저것 생각을 정리한 글들을</p>
+
+<p>잔뜩 만들어두었다.</p>
+
+<p>그러다가 문득, 블로그를 장시간 하지 않았음을 깨달았다.</p>
+
+<p>최근에는 ,</p>
+
+<p>비용 산정을 하는 개발 담당자의 입장에서 생각하다보니 ,</p>
+
+<p>결국 그것이 아키텍쳐나 설계 단으로 생각의 초점이 집중되었고 ,</p>
+
+<p>그 초점은 결국 자료구조와 UML 등 익숙한 것들로 다시 환원되었다.</p>
+
+<p>그렇게 한바퀴를 빙빙 돌아 , 다시 도착한 곳은</p>
+
+<p>다름아닌, 알고리즘 ( 정확히는 코딩 테스트 ) 이다.</p>
+
+<p>전에는 알고리즘과 자료구조가 마치 한몸인 것 처럼 어렴풋이 느꼈지만,</p>
+
+<p>패러다임이나 큰 틀에서 보자면, 전산학의 큰 축 두개라고 할 수 있다.</p>
+
+<p>당연히 이 둘이 만나는 개념이고, 개발자 개인으로 보자면 당연히 둘 다 능숙하거나</p>
+
+<p>깊은 이해가 있으면 정말 좋겠지만, 그런 부분은 차치하고라도</p>
+
+<p>자료구조는 결국 크게 아키텍쳐 설계로 확장되고,</p>
+
+<p>알고리즘을 이해하거나 만들어내는 역량은 결국 시스템의 플로우나 기능단에서 나타나게 된다.</p>
+
+<p>그래디 부치부터 한국의 조영호님 ( <오브젝트> 저자) 까지 이르는 온갖 서적들의 홍수 속을</오브젝트></p>
+
+<p>잠깐 헤엄치고 나니,</p>
+
+<p>마치 게임에서 기획자가 콘텐츠의 등장 빈도나 밸런스를 맞추듯이</p>
+
+<p>알고리즘에 대한 나름의 학습 욕구가 다시 한번, 불타기 시작했다.</p>
+
+<h1 id="본론">본론</h1>
+
+<p>그래서 간만에 백준 알고리즘 코딩 테스트 연습 사이트를 켜서 ,</p>
+
+<p>1000 번 문제인 아주 기초적인 구현 수준의 문제를 풀었다.</p>
+
+<p>결과는 다음과 같다.</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;iostream&gt;
+#include &lt;string&gt;
+#include &lt;sstream&gt;
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">string</span> <span class="n">str_1</span><span class="p">;</span>
+    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">str_1</span><span class="p">);</span>
+    <span class="n">stringstream</span> <span class="n">ss</span><span class="p">(</span><span class="n">str_1</span><span class="p">);</span>
+
+    <span class="n">string</span> <span class="n">str_temp</span><span class="p">;</span>
+
+    <span class="kt">int</span> <span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> 
+    <span class="c1">// 2020-1-26 Lhamed : 0 으로 할당하지 않으면 계산 결과가 이상해진다 ?? 아직 원인 모른다. </span>
+    <span class="c1">// 2020-1-26 Lhamed : 일명 쓰레기 값 때문이라는 것을 지인 개발자님으로 부터 들었다. </span>
+
+    <span class="k">while</span> <span class="p">(</span><span class="n">ss</span> <span class="o">&gt;&gt;</span> <span class="n">str_temp</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="c1">// 2020-1-26 Lhamed : 공백을 제외하는 검사를 하지 않으면, 공백도 숫자로 변환되어서 더해져 버린다.</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">str_temp</span> <span class="o">!=</span> <span class="s">" "</span> <span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">sum</span> <span class="o">+=</span> <span class="n">stoi</span><span class="p">(</span><span class="n">str_temp</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">sum</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>위 두 주석은 틀렸거나 에러를 야기한 부분을 고치면서 넣은 것이다.</p>
+
+<p>뭐가 어렵겠나? 싶었던 아주 간단한 코드에서 2 부분이나 오류가 난 것은 유쾌한 경험은 아니나,</p>
+
+<p>좀 더 겸손하고 진지하게 임할 수 있게 해주었고 ,</p>
+
+<p>무엇보다 내가 모르는 부분이 이 부분들을 통해서 드러났기에</p>
+
+<p>전에 모르던 것을 하나 더 배울 수 있었다.</p>
+:ET
