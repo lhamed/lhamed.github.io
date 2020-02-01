@@ -1,3 +1,10 @@
+---
+layout: post
+title: 2월의 여유로운 첫 토요일
+description: "lazy Sat."
+modifed:2020-2-1
+tags: [Journal]
+---
 
 우한 폐렴이 유행인 상황에서, 코감기에 걸린 것 만으로 회사를 이틀 쉬게 되었다.
 
