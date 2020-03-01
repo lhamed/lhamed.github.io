@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 재택 근무와 알고리즘 문제 풀다
-description: "lazy Sat."
-modifed:2020-2-1
+description: lazy Sat.
+modifed: 2020-2-1
 tags: [Journal]
 ---
 
