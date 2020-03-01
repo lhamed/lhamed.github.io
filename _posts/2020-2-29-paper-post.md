@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 종이 노트
+title: paper note 
 description: 
 modified: 2020-2-29
 tags: [ jorunal  ] 
