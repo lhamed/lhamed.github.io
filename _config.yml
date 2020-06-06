@@ -81,3 +81,4 @@ exclude:
   - spec
   - tmp
 remote_theme : mmistakes/hpstr-jekyll-theme
+theme: jekyll-theme-modernist
