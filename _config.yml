@@ -31,7 +31,7 @@ google_analytics:   UA-149379019-1
 timezone:    Asia/Seoul
 future:      true  # publish future dated posts --  true, false (default) 
 highlighter: rouge
-markdown:    kramidown
+markdown:    kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
@@ -45,7 +45,7 @@ sass:
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 2
+paginate: 12
 
 kramdown:
   input: GFM
