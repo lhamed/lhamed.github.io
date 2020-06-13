@@ -17,7 +17,7 @@ owner:
   instagram:      lhamed_the_ludologist
   # google plus id, include the '+', eg +mmistakes
 
-
+w
 # Background image to be tiled on all pages
 background:  universe.jpg
 postbackground : universe.jpg
@@ -45,7 +45,7 @@ sass:
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 12
+paginate: 1
 
 kramdown:
   input: GFM
