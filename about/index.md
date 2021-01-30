@@ -14,61 +14,50 @@ modified: 2020-09-18
  
 ## 지나온 것
 
+### 학력 
 - 2012, 1, 대한민국 육군사관학교 기초군사훈련 입교
-- 2012, 2, 고등학교 졸업 & 대한민국 육군사관학교 입학 
-  - 졸업식에서 육군참모총장상 수상 
-- 2012, 8, 대한민국 육군사관학교 퇴교
-- 2014, 2, 가톨릭대학교 성심교정 사회과학부 심리학 
-- ~ 2016, 2, 휴학 상태로 취미로 게임 개발 습작을 시작.
-- ~ 2017, 8, 구글 플레이에 습작 게임들을 출시
-  - 7개 출시 중 5만 다운로드 , 10만 다운로드등 성과
-  - 총 매출 약 2600 만원 정도를 기록
-- ~ 2018, 2, 기존 개인사업자에서 가산의 새 게임 개발 스타트업으로 합병
-  - 1개 작 [행행] 출시 후 출시 취소
-- ~ 2018, 8, 취직하여 학업 병행
-  - 심리학과, 2학년 수료
-  - [(주)퍼즐스페이스] 클라이언트 개발자로 재직  
-- 2019, 1, 모바일 게임개발사 [주식회사뱃돈]으로 프로그래머로 이직, 주요 타이틀 [에고소드]
-- 2019, 2, 가톨릭대학교 2학년 수료, 자퇴
-- 2019, 4, [주식회사뱃돈] 법인 설립
+- 2012, 대한민국 육군사관학교
+  - 8월 자퇴
+- 2014, 가톨릭대학교 심리학과
+  - 3학년 중퇴 ( 2학년 수료 )
 
-## 해본 것 
-- Version Control
-  - Git , SVN 
-  - Branch 관리 , Tag 
-  - Github Webhook 을 통한 트리거 빌드 
-- Game Engine
-  - Unity ( version : 5 ~ 2020 ) 사용과 상용 게임 서비스
-  - 플랫폼 빌드 경험 : ios, android , windows pc(steam)
-  - Unity Editor 기반 툴 제작
-  - 2 년의 개인 경험 ( 간이사업자 창업 및 습작 )
-  - 3 년의 상용 경험 ( 4대 보험 기준 )
-- node.js 
-  - [에고소드] PVP 컨텐츠 웹 API 서버 로직 구현 
-  - 운영용 챗봇 개발
-	- 라이브 서비스와 유지보수 
-- jenkins 
-  - github's webhook 등을 이용한 Unity 푸시 원격 빌드와 자동 internal test build 출시 세팅
-    - shell script 를 활용해서 , push 시에 tag 로 cpp/빌드넘버, ios/빌드넘버 등으로 빌드 플랫폼을 선택하고 , 커밋 메시지로 ver=(버전), num=(빌드넘버), (내용) 하면 버전, 빌드넘버대로 빌드되어서 내용을 스토어에 올린다 ( 내용은 구글만 )
-    - Android Google Play Store 지원 
-    - iOS App stroe 지원 (flight test 까지 자동)
+### 경력
+- [(주)퍼즐스페이스] (2018)
+  - 모바일 게임개발사, 클라이언트 프로그래머
+- [(주)뱃돈] (2019~2020)
+  - 모바일 게임개발사, 프로그래머
+- [(주)마그마큐브] (2020 ~ . )
+  - 모바일 게임 개발사, 기술이사
+
+### 참여한 프로젝트 
+- 개인습작
+  - [구글스토어](https://play.google.com/store/apps/developer?id=%EB%9D%BC%EB%A9%94%EB%94%94%EC%95%88&hl=ko)
+- 상용 프로젝트 
+  - 숨겨진 방의 비밀
+     - [구글스토어](https://play.google.com/store/apps/details?id=com.PuzzleSpace.HiddenRoomGame)
+     - [애플스토어](https://apps.apple.com/us/app/secret-of-the-hidden-room/id1404685993?app=itunes&ign-mpt=uo%3D4)
+     - [스팀](https://store.steampowered.com/app/909370/RoomESC_Secret_of_the_Hidden_Room_the_Collaborator/)
+  - 에고소드
+     - [구글스토어](https://play.google.com/store/apps/details?id=com.betdon.egosword&hl=ko)
+     - [애플스토어](https://apps.apple.com/kr/app/%EC%97%90%EA%B3%A0%EC%86%8C%EB%93%9C-%EB%B0%A9%EC%B9%98%ED%98%95rpg/id1450371893)
+## STACK 
+- 상용 경험
+  - Git , SVN
+  - Unity ( version : 5 ~ 2020 )
+  - node.js 비동기 웹 API 서버 
+  - MongoDB 를 이용한 유저 DB
+  - Redis 를 활용한 게임 채팅 서버  
+  - jenkins 를 활용한 통합과 배포 
 
 
 ## To Much Informations
 - Dev OS : Mac 
-- Dev Keyborad : Vertex Core
+- Dev Keyborad : Perixx Ergonomic Keybaord 
 - Dev Code Editor :
-  - Visual Studio (Unity )
+  - Visual Studio For Mac
   - Visual Studio Code
-  - Emacs ( 시도 중 )
-- 요새는 취미로 산책을 해보고 있다. 머리가 맑아져서 좋다. 
-- 목욕탕에 가서 정신을 놓는 취미도 생겼다. 
-- 일주일에 서너번은 명상을 한다. 감각과 인지에 주의를 기울이는 것에 가깝지만 
-- 좀 다혈질 인 것 같으나, 나이 들면서 좋아지는 중. ( 분노 조절 잘함 ) 요새 아주 잘함. 
-- 카페인에 굉장히 취약하다. 기분이 점점 좋아지다가 예민해지는 편 . 작업할 때 부스팅 하기 좋다. 이젠 잠도 잘 잔다.
-  - 원래는 VS for Mac 을 썼었다. 
-- 모르던 걸 배우는 걸 좋아한다. 
-  - 심리학과인데, 복전은 생명공학과 인것도 비슷한 이유, 유기화학을 간신히 수강한 게 끝이지만 
-  - 등한시 했던, 과거의 첫사랑 군사학이 요새 그립다. 
-- 운전면허가 없다. 
-- 독서를 좋아하는 편인데 , 종이 책을 압도적으로 선호한다. E-book 은 지하철에서만 
+- 취미 :
+  - 산책 
+  - 명상
+  - 독서
+  - 바둑 
