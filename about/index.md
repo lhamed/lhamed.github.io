@@ -40,6 +40,8 @@ modified: 2020-09-18
   - 에고소드
      - [구글스토어](https://play.google.com/store/apps/details?id=com.betdon.egosword&hl=ko)
      - [애플스토어](https://apps.apple.com/kr/app/%EC%97%90%EA%B3%A0%EC%86%8C%EB%93%9C-%EB%B0%A9%EC%B9%98%ED%98%95rpg/id1450371893)
+     
+     
 ## STACK 
 - 상용 경험
   - Git , SVN
