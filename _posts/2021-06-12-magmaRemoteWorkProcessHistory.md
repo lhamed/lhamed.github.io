@@ -2,7 +2,7 @@
 layout: post
 title: 재택근무환상곡
 description: (주)마그마큐브가 지나온 근무제도의 내용들
-modified: 2021-2-21
+modified: 2021-6-12
 tags: [remote-work,remote,work-process,found-company]
 image:
   credit: lhaemd
