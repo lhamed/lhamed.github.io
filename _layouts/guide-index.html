@@ -1,7 +1,10 @@
 <!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]>
+<html class="no-js lt-ie9" lang="en"><![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
@@ -9,49 +12,61 @@
 <head>
     {% include head.html %}
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TB2TXW960V"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-TB2TXW960V');
+</script>
 <body id="guide-index" {% if page.image.feature %}class="feature" {% endif %}>
 
-    {% include browser-upgrade.html %} {% include navigation.html %}
+{% include browser-upgrade.html %} {% include navigation.html %}
 
-    <div class="entry-header">
-        {% if page.image.credit %}
-        <div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div>
-        <!-- /.image-credit -->{% endif %} {% if page.image.feature %}
-        <div class="entry-image">
-            <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+<div class="entry-header">
+    {% if page.image.credit %}
+    <div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div>
+    <!-- /.image-credit -->{% endif %} {% if page.image.feature %}
+    <div class="entry-image">
+        <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+    </div>
+    <!-- /.entry-image -->
+    {% endif %}
+    <div class="header-title">
+        <div class="header-title-wrap">
+            <h1>{{ site.title }}</h1>
+            <h2>{{ page.title }}</h2>
         </div>
-        <!-- /.entry-image -->
-        {% endif %}
-        <div class="header-title">
-            <div class="header-title-wrap">
-                <h1>{{ site.title }}</h1>
-                <h2>{{ page.title }}</h2>
-            </div>
-            <!-- /.header-title-wrap -->
-        </div>
-        <!-- /.header-title -->
+        <!-- /.header-title-wrap -->
     </div>
-    <!-- /.entry-header -->
+    <!-- /.header-title -->
+</div>
+<!-- /.entry-header -->
 
-    <div id="main" role="main">
-        {{ content }}
-    </div>
-    <!-- /#main -->
+<div id="main" role="main">
+    {{ content }}
+</div>
+<!-- /#main -->
 
-    <div class="footer-wrapper">
-        <footer role="contentinfo">
-            {% include footer.html %}
-        </footer>
-    </div>
-    <!-- /.footer-wrapper -->
+<div class="footer-wrapper">
+    <footer role="contentinfo">
+        {% include footer.html %}
+    </footer>
+</div>
+<!-- /.footer-wrapper -->
 
-    {% include scripts.html %}
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- 디스플레이 광고 _ 1 -->
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+{% include scripts.html %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 디스플레이 광고 _ 1 -->
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </body>
 
 </html>
