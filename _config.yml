@@ -5,6 +5,14 @@ reading_time:     false
 words_per_minute: 200 # 이게뭐지 ? L
 url:  https://lhamed.github.io
 
+
+analytics:
+  provider : "google"
+            # false (default), "google","google-unicersal","google-gtag","custom"
+  google:
+      tracking_id : "G-TB2TXW960V"
+      anonymize_ip : # true, false (default)
+
 # Owner/author information
 owner:
   name:           Lhamed (정윤재)
