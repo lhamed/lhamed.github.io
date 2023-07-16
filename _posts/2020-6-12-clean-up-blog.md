@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shell Script : 블로그 대청소
+title: 블로그 대청소
 description: 
 modified: 2020-6-12
 tags: [ jekyll , blog  ] 

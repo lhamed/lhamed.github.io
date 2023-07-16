@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2월의 여유로운 첫 토요일
-description: "lazy Sat."
+description:
 modifed:2020-2-1
 tags: [Journal]
 ---

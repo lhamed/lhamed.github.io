@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shell Script : chmod 명령어 
+title: chmod 명령어 
 description: 파일과 디렉토리의 권한을 설정해보자. 
 modified: 2020-5-31
 tags: [ shell , cli , chmod ] 
