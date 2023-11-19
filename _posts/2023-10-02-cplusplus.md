@@ -2,7 +2,7 @@
 layout: post
 title: 새로운 회사에 합류하다.
 description: 
-modified: 2023-07-13
+modified: 2023-10-02
 tags: [blog]
 image:
   credit: lhamed
