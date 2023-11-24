@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: git branch name on windows and linux
