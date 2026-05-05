@@ -88,5 +88,11 @@ exclude:
   - package.json
   - spec
   - tmp
+collections:
+  guides:
+    output: true
+  cs:
+    output: true
+
 remote_theme : mmistakes/hpstr-jekyll-theme
 theme: jekyll-theme-modernist

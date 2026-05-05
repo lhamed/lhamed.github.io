@@ -1,0 +1,32 @@
+---
+layout: cs-index
+title: CS
+description: "컴퓨터공학 공부 기록"
+comments: false
+---
+
+{% for cs in site.cs %}
+    {% capture this_year %}{{ cs.date | date: "%Y" }}{% endcapture %}
+    {% capture next_year %}{{ cs.previous.date | date: "%Y" }}{% endcapture %}
+
+    {% if forloop.first %}
+    <article>
+      <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
+      <ul>
+    {% endif %}
+
+        <li class="entry-title"><a href="{{ site.url }}{{ cs.url }}" title="{{ cs.title }}">{{ cs.title }}</a></li>
+
+    {% if forloop.last %}
+      </ul>
+    </article>
+    {% else %}
+        {% if this_year != next_year %}
+          </ul>
+        </article>
+        <article>
+          <h2 id="{{ next_year }}-ref" class="year-heading">{{next_year}}</h2>
+          <ul>
+        {% endif %}
+    {% endif %}
+{% endfor %}
