@@ -272,12 +272,36 @@ header .entry-meta {
 #guide,
 #cs {
 
+	.header-title {
+		margin: 40px 2px 0 2px;
+		padding: 20px 15px 10px;
+		background-color: #fff;
+		box-shadow: 0 0 0 0, 0 6px 12px rgba(#000,0.1);
+		border-radius: 3px 3px 0 0;
+
+		@media #{$medium} {
+			margin-left: 10px;
+			margin-right: 10px;
+			padding: 30px 30px 10px;
+		}
+
+		@media #{$large} {
+			max-width: 800px;
+			margin: 50px auto 0 auto;
+			padding: 40px 80px 20px;
+		}
+
+		h1, h2 {
+			color: $base-color;
+		}
+	}
+
 	.entry-content {
-		margin: 40px 2px 20px 2px;
+		margin: 0 2px 20px 2px;
 		padding: 10px 15px;
 		background-color: #fff;
 		box-shadow: 0 0 0 0, 0 6px 12px rgba(#000,0.1);
-		border-radius: 3px;
+		border-radius: 0 0 3px 3px;
 
 		@media #{$medium} {
 			margin-left: 10px;
@@ -287,7 +311,7 @@ header .entry-meta {
 
 		@media #{$large} {
 			max-width: 800px;
-			margin: 50px auto 30px auto;
+			margin: 0 auto 30px auto;
 			padding: 50px 80px;
 
 			> p:first-child {
