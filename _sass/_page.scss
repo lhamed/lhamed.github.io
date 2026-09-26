@@ -618,3 +618,19 @@ header .entry-meta {
 #goog-wm-sb {
 	@extend .btn;
 }
+// Keep feature-page titles in the same flow and column as their content.
+#page.feature .header-title {
+	position: relative;
+	display: block;
+	width: auto;
+	height: auto;
+
+	.header-title-wrap {
+		display: block;
+	}
+
+	h1 {
+		margin: 10px 20px;
+		text-shadow: none;
+	}
+}
